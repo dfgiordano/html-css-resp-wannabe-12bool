@@ -23,7 +23,6 @@
 [class*=col-]{
     float:left;
 }
-
 /* XS */
 @media screen and (max-width: 767px) {
     .col-xs-1 {
@@ -97,7 +96,7 @@
     }
 }
 /* MD */
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 768px) and (max-width: 991px) {
     .col-md-1 {
         width: calc((100% / 12) * 1)
     }
